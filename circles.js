@@ -80,7 +80,7 @@ class Circle {
             this.dx = -this.dx;
         }
 
-        // flips x velocity based on edge of screen detection
+        // flips y velocity based on edge of screen detection
         if (this.y + this.radius > innerHeight || this.y - this.radius < 0) {
             this.dy = -this.dy;
         }
